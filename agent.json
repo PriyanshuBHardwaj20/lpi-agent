@@ -1,0 +1,27 @@
+{
+  "protocol": "A2A/1.0",
+  "identity": {
+    "name": "Priyanshu's SMILE Auditor Agent",
+    "developer": "Priyanshu Bhardwaj",
+    "version": "1.0.0",
+    "description": "An AI reasoning engine that performs technical Gap Analysis on Digital Twin projects. It utilizes the Model Context Protocol to ground its audits in the S.M.I.L.E. mapping methodology."
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "smile_gap_analyzer",
+        "description": "Analyzes the current development phase of a 3D digital twin and provides actionable technical steps to reach the next SMILE phase."
+      },
+      {
+        "name": "lpi_context_retriever",
+        "description": "Queries the LPI knowledge base for real-time methodology definitions, phase details, and structural overviews."
+      }
+    ],
+    "context_window": 4096,
+    "mcp_compatible": true
+  },
+  "communication": {
+    "supported_formats": ["json", "markdown"],
+    "requires_human_approval": false
+  }
+}
