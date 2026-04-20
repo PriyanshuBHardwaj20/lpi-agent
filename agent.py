@@ -96,7 +96,7 @@ def run_agent(user_input):
     1. Determine which SMILE Phase the user is currently in.
     2. Explain why, using specific definitions from the sources.
     3. Identify what technical steps are needed to reach the next phase.
-    4. CITATIONS: You MUST cite your sources using [Source 1], [Source 2], or [Source 3] for every claim.
+    4. MANDATORY CITATIONS: You are FORBIDDEN from making a claim without adding [Source 1], [Source 2], or [Source 3] at the end of the sentence. This is for an audit; citations are required.
     """
 
     # EXECUTE WITH STREAMING 
